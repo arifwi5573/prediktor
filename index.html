@@ -162,7 +162,7 @@ $.notify('Saatnya Open '+osave+' Stake '+stake.toFixed(2),{ className: 'info', h
 	  	ws.close();
 	  }else{
 	  	ws.send(JSON.stringify({proposal_open_contract: 1,contract_id: contract_id}));
-	    alert('error : '+data.error.message);
+	   // alert('error : '+data.error.message);
 	  }
 	  }}
 	  
